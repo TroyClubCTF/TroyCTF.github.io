@@ -1,0 +1,57 @@
+body
+{
+    font-family: 'Gotham A', 'Gotham B', 'Montserrat', sans-serif;
+    background-color: silver;
+    padding: 15px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: 0;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #3b4a59;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #92b09d;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #d6c2bd;
+    color: white;
+}
+
+div.section
+{
+    background-color: white;
+    background-color: hsla(0, 100%, 100%, 0.5);
+    padding: inherit;
+}
+
+p, li
+{
+    /*font-family: 'Gotham A', 'Gotham B', 'Montserrat', sans-serif;*/
+    color: #4e4e46;
+    font-weight: 400;
+}
+
+h3, h2, h1
+{
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-weight: 700;
+}
+
+
